@@ -3,3 +3,13 @@
     padding: 0;
     margin: 0;
 }
+
+#menubar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #3f3f3f;
+}
+#sidebar div.list div.item {
+
+}
