@@ -10,6 +10,14 @@
     height: 100%;
     background-color: #3f3f3f;
 }
-#sidebar div.list div.item {
+#sidebar .list .item {
+    padding: 15px 10px;
+    border-bottom: 2.5px solid #c4c4cc;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-size: 15px;
+}
 
+#sidebar .list .item:hover {
+    color: #48c9b0;
 }
