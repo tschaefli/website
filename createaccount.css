@@ -115,7 +115,28 @@ section .contentBx .formBx .inputBx p a {
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 120%;
+    }
+
+    section .imgBx:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        background: linear-gradient(225deg, #e88011, #03a9f4);
+        z-index: 1;
+        mix-blend-mode: screen;
+    }
+    
+    section .imgBx img {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        object-fit: cover;
     }
 
     section .contentBx {
@@ -123,7 +144,7 @@ section .contentBx .formBx .inputBx p a {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100%;
+        height: 120%;
         z-index: 1;
     }
 
