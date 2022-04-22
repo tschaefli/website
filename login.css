@@ -114,3 +114,29 @@ section .contentBx .formBx .inputBx p {
 section .contentBx .formBx .inputBx p a {
     color: #e88011;
 }
+
+@media (max-width: 768px) {
+    section .imgBx {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    section .contentBx {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    section .contentBx .formBx {
+        width: 100%;
+        padding: 40px;
+        background: rgb(255 255 255 / 0.6);
+        margin: 50px;
+    }
+}
