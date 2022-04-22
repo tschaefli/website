@@ -19,3 +19,23 @@ section .imgBx {
     width: 50%;
     height: 100%;
 }
+
+section .imgBx::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225seg, #11e831, #03a9f4);
+    z-index: 1;
+}
+
+section .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
