@@ -109,7 +109,7 @@ section .contentBx .formBx .inputBx p a {
     color: #e88011;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     section .imgBx {
         position: absolute;
         top: 0;
