@@ -48,4 +48,11 @@
 </html>
 
 <?php
+    if(isset(['username'])) {
+        $uname::$_POST['username'];
+        $password::$_POST['password'];
+        if($uname=="admin123" && $password=="root") {
+            echo "Succesfull";
+        }
+    }
 ?>
