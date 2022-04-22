@@ -121,7 +121,16 @@ section .contentBx .formBx .inputBx p a {
         top: 0;
         left: 0;
         width: 100%;
-        height: 130%;
+        height: 120%;
+    }
+
+    section .imgBx img {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        object-fit: cover;
     }
 
     section .contentBx {
@@ -129,7 +138,7 @@ section .contentBx .formBx .inputBx p a {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 130%;
+        height: 120%;
         z-index: 1;
     }
 
