@@ -1,3 +1,32 @@
+/* Navbar */
 .green {
-    color: rgb(94, 157, 0);
+    color: rgb(124, 197, 14);
+}
+
+.navbar {
+    border-bottom: 1px solid #888;
+}
+
+.nav-link:hover {
+    color: rgb(141, 222, 20) !important;
+}
+
+.icon-link {
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: rgb(141, 222, 20) !important;
+}
+
+/* Slider */
+.carousel {
+    border-bottom: 1px solid #888;
+}
+
+.slider-image {
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
 }
