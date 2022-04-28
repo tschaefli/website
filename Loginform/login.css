@@ -1,0 +1,72 @@
+/* General */
+.green {
+    color: rgb(124, 197, 14);
+}
+
+
+/* Card */
+.login-content {
+    width: 100%;
+    min-height: 100vh; 
+    background: linear-gradient(45deg, rgba(184, 190, 186, 0.5), rgb(124, 197, 14, 0.4));
+}
+
+.auth-card {
+    background-color: white;
+    box-shadow: 0 3px 12px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 10px 10%;
+}
+
+.logo-area {
+    padding: 10px 30%;
+    transform: scale(3);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.logo-title {
+    text-align: center;
+    color: grey;
+}
+
+.seperator {
+    width: auto;
+    color: grey;
+}
+
+.auth-input {
+    border-radius: 10px;
+    background-color: white;
+    border-color: grey;
+    height: 45px;
+    border: 1px solid grey;
+    box-shadow: none !important;
+}
+
+.auth-input:focus {
+    border: 1.5px solid rgb(124, 197, 14);
+    border-color: rgb(124, 197, 14);
+}
+
+.auth-btn {
+    background: rgb(124, 197, 14, 0.4);
+    color: grey;
+    height: 45px;
+    font-size: 18px;
+    box-shadow: none !important;
+}
+
+.auth-btn:hover {    
+    background: rgb(124, 197, 14);
+    color: black;
+}
+
+.return {
+    color: rgb(124, 197, 14, 0.7);
+    text-decoration: none;
+}
+
+.return:hover {
+    color: rgb(124, 197, 14);
+}
