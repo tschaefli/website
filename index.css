@@ -51,7 +51,20 @@
     font-size: 30px;
 }
 
+.title-2 {
+    color: rgb(124, 197, 14);
+    font-size: 50px;
+    font-weight: 700;
+}
+
 .text-1 {
     color:black;
     font-size: 18px;
+}
+
+/* Prozes */
+.img-process {
+    width: 130vh;
+    height: auto;
+    margin: 0 auto;
 }
