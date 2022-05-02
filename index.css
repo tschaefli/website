@@ -44,6 +44,7 @@
 .page-content {
     margin-left: 5vh;
     margin-right: 5vh;
+    width: 100%;
 }
 
 .title-1 {
@@ -63,8 +64,3 @@
 }
 
 /* Prozes */
-.img-process {
-    width: 130vh;
-    height: auto;
-    margin: 0 auto;
-}
