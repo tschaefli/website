@@ -1,0 +1,57 @@
+/* General */
+.green {
+    color: rgb(124, 197, 14);
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #888;
+}
+
+.nav-link:hover {
+    color: rgb(141, 222, 20) !important;
+}
+
+.icon-link {
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: rgb(141, 222, 20) !important;
+    background-color: rgb(33, 37, 41) !important;
+}
+
+.dropdown-menu {
+    background-color: rgb(33, 37, 41) !important;
+    border-radius: 2px;
+    border: 1px solid #888;
+}
+
+/* Slider */
+.carousel {
+    border-top: none;
+    border-bottom: 2px solid #888;
+}
+
+.slider-image {
+    width: 100vw;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Page-Content */
+.page-content {
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.title-1 {
+    color: rgb(124, 197, 14);
+    font-size: 30px;
+}
+
+.text-1 {
+    color:black;
+    font-size: 18px;
+}
