@@ -51,11 +51,25 @@
     font-size: 30px;
 }
 
+.title-2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .text-1 {
     color:black;
     font-size: 18px;
 }
 
+/* Production */
+.production-item {
+    border: none !important;
+}
+
+.btn-more:hover {
+    background-color: rgba(136, 136, 136, 0.6);
+}
 
 /* Footer */
 .link-icon:hover {
